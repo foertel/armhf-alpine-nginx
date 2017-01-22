@@ -1,6 +1,6 @@
-### Alpine Linux Nginx
+### Alpine Linux Nginx for Raspberry Pi
 
-A lightweight [Nginx][nginx] [Docker image][dockerhub_project] built from source atop [Alpine Linux][alpine_linux]. Available on [GitHub][github_project].
+A lightweight [Nginx][nginx] [Docker image][dockerhub_project] built from source atop [Alpine Linux][alpine_linux] for armhf. Available on [GitHub][github_project].
 
 #### Mainline 1.11.x Branch Tags
 
@@ -43,6 +43,10 @@ $ docker run --rm foertel/armhf-alpine-nginx cat /etc/alpine-release
 ### History
 
 - 2017-01-22 - Initial version with Nginx 1.11.8 and Alpine Linux 3.4.5 (OpenSSL 1.0.2j, gcc 5.3.0).
+
+### Thanks
+
+- [sickp](https://github.com/sickp/docker-alpine-nginx) for alpine-nginx
 
 [alpine_linux]:        https://hub.docker.com/r/armhf/alpine/
 [dockerhub_project]:   https://hub.docker.com/r/foertel/armhf-alpine-nginx/
